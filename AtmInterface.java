@@ -21,7 +21,7 @@ class BankAccount {
 		this.password = sc.nextLine();
 		System.out.print("\nEnter Your Account Number - ");
 		this.accountNo = sc.nextLine();
-		System.out.println("\nRegistration completed..kindly login");
+		System.out.println("\nRegistration completed.kindly login");
 	}
 	
 	public boolean login() {
@@ -220,9 +220,8 @@ public class AtmInterface {
 		}
 		else {
 			System.exit(0);
-		}
-		
-		
-		
+		}		
 	}
 }
+
+
